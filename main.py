@@ -15,6 +15,8 @@ def main():
     manager = Manager("Ari", shelter)
 
     manager.feed_all_pets()
+    cat3 = Pet("Cat 3", 12)
+    shelter.add_pet(cat3)
 
 
 
