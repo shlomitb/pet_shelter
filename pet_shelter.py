@@ -1,5 +1,5 @@
 import json
-from oop.oop_pet_project.pet import Pet
+from pet import Pet
 
 class PetShelter:
     def __init__(self, name):
